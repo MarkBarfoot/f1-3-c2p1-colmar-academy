@@ -1,0 +1,586 @@
+
+html{
+  font-size: 16px;
+  font-family:'Roboto Slab', serif;
+
+}
+
+header{
+  position: fixed;
+  margin-top: -4rem;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
+.company-head{
+  display: inline-flex;
+  align-items: center;
+  height: 2rem;
+  width: 13rem;
+  font-size: 1.2rem;
+}
+
+.company-head img{
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60px;
+
+}
+
+.container-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.head-container-mobi{
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width:100%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+nav span{
+  margin-left: 1rem;
+}
+
+nav li a{
+  text-decoration: none;
+  color: Black;
+  font-weight: bold;
+}
+
+nav li a:hover{
+  color: #00aced;
+}
+
+nav li{
+  display: inline;
+  margin-left: 1rem;
+}
+
+
+button{
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 300px;
+  background-color: #28303d ;
+  color: white;
+}
+
+@media only screen and (max-width: 1023px){
+
+  .container-head{
+    display: none;
+  }
+
+  .head-container-mobi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+}
+
+.container{
+  margin: 2rem 0rem 2rem 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  width: 60%;
+}
+
+.container-right{
+  margin: 2rem 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  width: 40%;
+  padding-bottom: 1rem;
+
+}
+
+.banner .container{
+  width: 58%;
+}
+
+.content-banner{
+  width: 60%;
+}
+
+.content-banner h1{
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #28303d;
+}
+
+.content-banner h2{
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #28303d;
+  font-weight: lighter;
+  line-height: 2rem;
+}
+
+.banner{
+  display: flex;
+  margin-top: 4rem;
+  background-color: lightgray;
+}
+
+@media only screen and (max-width: 1023px){
+
+  .banner{
+    display:block;
+    margin-top: 4rem;
+    background-color: lightgray;
+  }
+
+  .banner .container{
+    margin: 0;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    width: 100%;
+  }
+
+  .container-right{
+    margin: 0;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem 1rem 1rem;
+    box-sizing: border-box;
+
+  }
+
+  .content-banner{
+    width: 100%;
+    padding: 0;
+  }
+
+  .content-banner h1 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    color: #28303d;
+  }
+
+  .content-banner h2{
+    font-size: 1.5rem;
+  }
+
+  button{
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 100%;
+    background-color: #28303d ;
+    color: white;
+  }
+
+}
+
+.banner .container img{
+  width: 100%;
+}
+
+.info{
+  display: flex;
+}
+
+.info .container img{
+  width: 100%;
+}
+
+.practice{
+  width: 100%;
+
+}
+
+.info .container{
+  margin-right: 0px;
+}
+
+.campus-container-mobile{
+  display: none;
+}
+
+.container-campus{
+ margin: 2rem 1.5rem 0rem 1.5rem;
+ display: inline-flex;
+ width: 42%;
+ border-left: 1px solid gray;
+}
+
+@media only screen and (max-width: 1023px){
+
+  .info .container{
+    display: none;
+
+  }
+
+  .info{
+    display: block;
+    border-bottom: 1px solid lightgrey;
+  }
+
+  .container-campus{
+    display: none;
+  }
+
+  .container-campus .on-campus{
+    display:none;
+  }
+
+  .campus-container-mobile{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .banner .container img {
+    width: 100%;
+  }
+
+}
+
+.info h1{
+  font-size: 2.1rem;
+  color: #28303d;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.gray{
+  background-color: lightgray;
+}
+
+.practice p{
+  width: 65%;
+  display: inline-block;
+  color: gray;
+  line-height: 1.5rem;
+}
+
+.practice span{
+  display:block;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  color: #28303d;
+  color: gray;
+}
+
+.on-campus{
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+.blue{
+  color: #00aced;
+}
+
+.mini-container{
+  display: flex;
+  align-items: center;
+  height: 32%;
+  width: 100%;
+  padding-left: 1rem;
+  border: 1px solid lightgray;
+}
+
+.mini-container .img-container{
+  width: 35%;
+  height: 90%;
+}
+
+.img-container img{
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+
+.articles .mini-container p{
+  color: gray;
+}
+
+.exhibit-video p{
+  color: gray;
+}
+
+.content{
+  width: 65%;
+  padding: 1.5rem;
+}
+
+.content p{
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.content h3{
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1023px){
+  .mini-container{
+    flex-direction: column;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    box-sizing: border-box;
+  }
+
+  .mini-container2 {
+    flex-direction: column;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    box-sizing: border-box;
+  }
+
+  .mini-container .img-container{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+  }
+
+  .content {
+    width: 100%;
+    padding: 1rem 0rem 2rem 1rem;
+    box-sizing: border-box;
+  }
+
+}
+
+.courses{
+  background-color: lightgray;
+}
+
+.courses-container{
+  margin: 0rem 4.5rem 2rem 4.5rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.courses-container h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.topics{
+ display: flex;
+ justify-content: space-between;
+}
+
+.topic h3{
+  font-size: 1.8rem;
+  margin: 1rem;
+}
+
+.topic h4{
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.topic p{
+  font-size: 1rem;
+  margin-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  color: gray;
+  line-height: 1.5rem;
+}
+
+.position{
+  margin-left: 1rem;
+}
+
+.topic{
+  background-color: white;
+  width: 32.1%;
+  margin-top: 2rem;
+}
+
+.topic .image-container{
+  margin-right: 0px;
+  height:500px;
+}
+
+.topic .image-container img{
+  width: 100%;
+}
+
+.video-mobile{
+  display:none;
+}
+
+@media only screen and (max-width: 1023px){
+  .topics{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  }
+
+  .topic {
+    background-color: white;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .topic h4, .topic p, .topic .img-container{
+    display: none;
+  }
+
+  .topic h3{
+    font-size: 1.5rem;
+    background-color: lightgrey;
+    padding: 1rem 1rem 1.5rem 1rem;
+    margin: 0;
+  }
+
+  .courses {
+    background-color: white;
+  }
+
+  .courses-container {
+    margin: 0rem 1em 2rem 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  .courses-container h1{
+    margin-bottom: 1rem;
+  }
+
+  .video-mobile{
+    display:block;
+    width: 100%;
+    height: 100%;
+  }
+
+}
+
+.exhibit{
+  background-color: white;
+  margin: 0rem 1.5rem 2rem 1.5rem;
+}
+
+.exhibit-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.exhibit-content video{
+  height: auto;
+  width: 100%;
+}
+
+.exhibit-video{
+  width: 60%;
+}
+
+.exhibit-video h1{
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.exhibit-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+
+.articles{
+ margin: 0rem 1.5rem 0rem 1.5rem;
+ display: flex;
+ flex-direction: column;
+ width: 40%;
+}
+
+.atricle .image-container{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1023px){
+
+  .articles, .articles .mini-container, .exhibit-video{
+    display: none;
+  }
+
+  .exhibit-content video {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .exhibit {
+
+    background-color: white;
+    margin: 0;
+  }
+
+  .exhibit-heading {
+    margin: 2rem 0rem 1rem 0rem;
+  }
+
+}
+
+footer{
+  height: 80px;
+  border-top: 1px solid black;
+  background-color: white;
+}
+
+footer p{
+  margin-left: 1.5rem;
+  padding-top: 1rem;
+  display: inline-block;
+}
+
+footer span{
+  float: right;
+  padding-top: 1rem;
+  margin-right:1.5rem;
+}
+
+@media only screen and (max-width: 1023px){
+  footer {
+    height: 0px;
+    border-top: 1px solid black;
+    background-color: white;
+  }
+
+  footer p{
+    padding-bottom: 1rem;
+  }
+
+  footer span{
+    display: none;
+  }
+
+}
